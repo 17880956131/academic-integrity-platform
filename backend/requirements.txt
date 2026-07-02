@@ -1,0 +1,28 @@
+# 论文智能审核系统 — Python 依赖
+# Academic Integrity Platform v3.0
+
+# === Web 框架 ===
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# === HTTP 客户端 (API 调用) ===
+httpx>=0.27.0
+
+# === 数据处理 ===
+python-multipart>=0.0.18
+pydantic>=2.4.0
+
+# === 文本处理 (可选: 本地查重) ===
+scikit-learn>=1.5.0
+sentence-transformers>=2.7.0
+
+# === AI 模型 (可选: 本地 AI 检测) ===
+# 需要 GPU 以获得合理速度, CPU 也可运行
+# torch>=2.2.0
+# transformers>=4.40.0
+
+# === 数据库 (可选: 术语知识图谱) ===
+# neo4j>=5.20.0
+
+# === 缓存 (可选: 结果缓存) ===
+# redis>=5.0.0

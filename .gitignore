@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.log
+
+# WorkBuddy (internal)
+.workbuddy/
+.skills/
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Internal documents
+*.docx
+*.doc
+*.pdf
+
+# Screenshots (test artifacts)
+.workbuddy/screenshots/
+
+# Temp files
+tmp/
+temp/
